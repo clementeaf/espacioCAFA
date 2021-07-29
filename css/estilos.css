@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    --fuentePrincipal: 'Staatliches', cursive;
+}
+
+/* Globales */
+
+section, footer, nav, main {
+    display: block;
+}
+body {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.contenido-collage {
+    background-image: url(../imagenes/collage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    justify-content: center;
+    height: 857px;
+    position: relative;
+    margin-top: 2rem;
+}
+p {
+    font-size: 1.8 rem;
+    font-family: var(--fuentePrincipal);
+    color: #000;
+    text-align: center  ;
+}
+a {
+    text-decoration: none;
+    color:#000;
+}
+
+img {
+    width: 460px;
+}
+
+
+h1, h2{
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(238, 230, 230);
+    font-family: var(--fuentePrincipal);
+}
+
+
+
+/* Navegador */
+
+.artistas {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0;
+}
+.artistas__busqueda {
+        padding: 5px 15px;
+        display: flex;
+        text-align: center;
+        margin: 3rem 0;
+        gap: 2rem;
+}
+
+
+#artista {
+    padding: 1rem;
+    color: antiquewhite;
+    font-family: var(--fuentePrincipal) ;
+}
+
+#works {
+    color: antiquewhite;
+    font-family: var(--fuentePrincipal) ;
+}
+.navegador {
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+    gap: 2rem;
+}
+
+.navegador__enlace {
+    font-family: var(--fuentePrincipal);
+    font-size: 2rem;
+}
+
+
+#enlaceHome {
+    padding: 1rem;
+    margin-right: 1px;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    display: block;
+    float: left;
+}
+#enlaceContacto {
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    padding: 1rem;
+
+}
+.contenedor {
+    display: grid;
+    grid-column: 1;
+    justify-content: center;
+
+}
+.obra {
+    background-color: rgba(80, 77, 77, 0.7);
+    width: 465px;
+    padding: 0.5rem;
+}
+#obra__nombre {
+    color: antiquewhite;
+}
+#obra__tamaño {
+    color: antiquewhite;
+}
+#obra__tecnica {
+    color: antiquewhite;
+}
+#obra__precio {
+    color: antiquewhite;
+}
+
+/* Formulario */
+
+.Formulario {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.Formulario__nombre {
+    display: block;
+    justify-content: center;
+    font-family: var(--fuentePrincipal);
+    color: antiquewhite;
+}
+
+.Formulario_apellido {
+    display: block;
+    justify-content: center;
+    font-family: var(--fuentePrincipal);
+    color: antiquewhite;
+}
+
+.Formulario_mail {
+    display: block;
+    justify-content: center;
+    font-family: var(--fuentePrincipal);
+    color: antiquewhite;
+}
+
+.input-text {
+        width: 100%;
+        border: none;
+        padding: 1.5rem;
+        border-radius: .5rem;
+}
+
+.Formulario_mensaje {
+    display: block;
+    justify-content: center;
+    font-family: var(--fuentePrincipal);
+    color: antiquewhite;
+}
+
+textarea {
+    height: 10rem;
+}
+
+.boton-enviar {
+    background: none;
+}
+/*  Footer */
+
+.footer {
+    display: block;
+    justify-content: center;
+
+    font-family: var(--fuentePrincipal);
+    font-size: 1rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-top: 1px solid black;
+}
